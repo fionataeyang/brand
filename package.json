@@ -1,0 +1,30 @@
+{
+  "name": "playproject-brand",
+  "version": "0.0.0",
+  "description": "issues, assets and other documents around the playproject brand and it's projects",
+  "main": "src/brand.js",
+  "scripts": {
+    "start": "budo demo/demo.js:bundle.js --ssl --open --live",
+    "build": "browserify demo/demo.js > bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/playproject-io/brand.git"
+  },
+  "keywords": [
+    "playproject",
+    "play",
+    "brand",
+    "logo",
+    "theme"
+  ],
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/playproject-io/brand/issues"
+  },
+  "homepage": "https://github.com/playproject-io/brand#readme",
+  "devDependencies": {
+    "budo": "^11.6.3"
+  }
+}
